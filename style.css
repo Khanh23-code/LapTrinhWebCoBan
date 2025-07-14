@@ -1,0 +1,91 @@
+.container{
+    height: 500px;
+    background-color: #ddd;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    padding: 25px;
+}
+
+.input{
+    width: 100%;
+    height: 35px;
+
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+    background-color: rgba(239,239,239,255);
+    border-style: none;
+    border-radius: 6px;
+}
+
+button.buttonSignin:hover{
+    background-color: green;
+}
+button.buttonSignin:active{
+    background-color: rgb(0, 77, 0);
+}
+.buttonSignin{
+    width: 100%;
+    height: 40px;
+
+    margin-bottom: 10px;
+    
+    color: white;
+    background-color:rgb(5,151,106);
+    border-style: none;
+    border-radius: 6px;
+}
+
+.image{
+    width: 20px;
+    height: 20px;
+
+    margin: 0 5px;
+}
+
+.welcome{
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-image: linear-gradient(180deg,rgba(51,205,148,255),rgba(6,155,109,255));
+    padding: 25px;
+}
+
+button.buttonSignup:hover{
+    background-color: rgb(5,151,106);
+}
+button.buttonSignup:active{
+    background-color: rgb(149, 202, 186);
+}
+.buttonSignup{
+    width: 60%;
+    height: 35px;
+
+    color: white;
+
+    background-color:rgba(221, 221, 221, 20%);
+    border-radius: 20px;
+    border-style: none;
+}
